@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -39,4 +40,47 @@
 
 .space{
   margin-right: 20px;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.roww {margin: 0 -5px;}
+
+.space{
+  margin-left: 80px;
+}
+
+.nav-space{
+  margin-top:30px;
+}
+
+.font{
+  font-size: 2rem;
+  color: #242424;
+  font-weight: bold;
+  position: relative;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hello{
+  margin-top:120px;
+}
+
+.react-logo{
+  width:90px ;
+  height:90px ;
+}
+.font-p{
+  font-size: 2rem;
 }
