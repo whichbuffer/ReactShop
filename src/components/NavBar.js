@@ -70,10 +70,13 @@ function NavBar(){
             <Route/>
             </Switch>
 
+
             <Switch>
             <Route path='/home' component={Home} />
             <Route/>
             </Switch>
+
+          
 
           
             
